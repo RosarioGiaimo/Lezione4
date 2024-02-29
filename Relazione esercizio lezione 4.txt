@@ -1,0 +1,17 @@
+Test Ping 192.168.100.100 / 192.168.200.100
+
+Layer1   Sorgente MAC: Laptop0 
+         Destinazione Mac: Switch0
+
+Layer2   Sorgente MAC: Switch0
+         Destinazione MAC: Router0
+
+Layer3   Sorgente MAC: Router0
+         Destinazione MAC: Switch1
+
+Layer4   Sorgente MAC: Switch1
+         Destinazione MAC: Laptop2
+
+Il pacchetto inviato dalla macchina laptop0 con IP 192.168.100.100 fa il seguente giro passa per lo 
+Switch0 dallo switch0 viene inviato al router0 dal Router0 viene inviato allo Switch1 e dallo Switch1
+viene inviato laptop2 con indirizzo IP 192.168.200.100 che lo riceve e lo reinvia al mittente
